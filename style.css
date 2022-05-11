@@ -1,0 +1,86 @@
+.header {
+    background-color: #1F2937;    
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.horse {
+    width: 500px;
+    height: 250px;
+}
+
+.body {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.four-cards {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.signed {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #3882f6;    
+    padding: 4px 20px;
+    color: white;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.button-two {
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 4px;
+    color: white;
+    padding: 4px 20px;
+    font-weight: 500;
+}
+
+.action {
+    background-color: #3882f6;
+}
+
+.footer {
+    background-color: #1f2937;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
