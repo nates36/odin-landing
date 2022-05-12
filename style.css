@@ -1,86 +1,176 @@
+body {
+    margin: 0 auto;    
+}
+
 .header {
-    background-color: #1F2937;    
+    background-color: #1F2937;
+    display: flex;             
+    justify-content: space-between;
+    align-items: center;
+    min-height: 400px;
+    padding: 0 10%;            
+}
+
+.top-text {
+    display: flex;
+    flex-direction: column;
+    align-self: center;          
+    flex: 1;
 }
 
 .logo {
+    background-color: #1F2937;
     color: #f9faf8;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: bold;     
+}
+
+.header-links {
+    background-color: #1F2937;
+    display: flex;   
+    justify-content: space-between;
+    padding: 16px 10%;
 }
 
 .header-text {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
+    width: 60%;  
 }
 
 .header-subtext {
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 18px; 
+    width: 70%;
+    padding-bottom: 8px;
 }
 
-.horse {
-    width: 500px;
-    height: 250px;
+.pic {
+    background-color: darkgrey;
+    color: #f9faf8;
+    font-size: 18px;
+    text-align: center;
+    display: flex;    
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    padding: 6.4% 0;        
 }
 
 .body {
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.cards {
+    display: flex;
+    text-align: center;   
+    justify-content: center;
+    gap: 52px;
 }
 
 .four-cards {
-    width: 150px;
-    height: 150px;
+    max-width: 200px;
     border-radius: 15px;
+    margin-bottom: 64px;    
 }
 
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
     font-size: 36px;
-    font-style: italic;
+    font-style: italic;     
+    padding: 32px 27%;
+    text-align: left;       
 }
 
 .signed {
     color: black;
     font-size: 18px;
     font-weight: bold;
+    text-align: right;    
 }
 
 .button {
     background-color: #3882f6;    
-    padding: 4px 20px;
     color: white;
     border-radius: 4px;
     font-weight: 500;
+    font-size: medium;
+    padding: 4px 15px;
+    width: 150px;       
 }
 
 .button-two {
     background-color: #3882f6;
     border-color: white;
     border-radius: 4px;
-    color: white;
-    padding: 4px 20px;
+    color: white;    
     font-weight: 500;
+    font-size: medium;
+    width: 150px;
+    
 }
 
 .action {
     background-color: #3882f6;
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+    margin: 64px 10%;
+    padding: 32px;       
+}
+
+.actiontext {
+    display: flex;
+    flex-direction: column;
+}
+
+.maintext {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;    
+}
+
+.subtext {
+    color: white;
+    font-size: 18px;       
+}
+
+.footer-button {
+    display: flex;
 }
 
 .footer {
     background-color: #1f2937;
+    text-align: center;
+    color: #f9faf8;
+    font-size: 14px;
+    padding: 24px 0;
 }
 
 a {
     text-decoration: none;
     color: #e5e7eb;
+    padding: 8px;
 }
 
 ul {
+    display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
+    gap: 1rem;
+}
+
+img {
+    width: 125px;
+    height: 125px;
+    border-radius: 15px;
 }
