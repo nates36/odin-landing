@@ -1,0 +1,19 @@
+.flex-main {
+    display: flex;
+}
+
+.top {
+    flex: 1;
+}
+
+.mid-top {
+    flex: 1;
+}
+
+.mid-bottom {
+    flex: 1;
+}
+
+.bottom {
+    flex: 1;
+}
