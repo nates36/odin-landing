@@ -54,14 +54,14 @@ li a {
 
 .hero-txt {
   flex: 1;
-  margin-left: 200px;  
+  margin-left: 200px;
 }
 
 .hero-img {
   flex: 1;
-  width: 400px;
+  width: 600px;
   height: 232px;
-  margin-right: 200px;
+
   border-radius: 5px;
   margin-left: 40px;
 }
@@ -78,6 +78,7 @@ h1 {
 }
 
 .secondary-txt {
+  margin-top: 8px;
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -86,9 +87,10 @@ h1 {
   background-color: #3882f6;
   color: #f9faf8;
   padding: 8px 30px;
-  margin-top: 12px;
+  margin-top: 32px;
   border-radius: 5px;
   border: 0;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -101,17 +103,18 @@ h2 {
 .info {
   display: flex;
   text-align: center;
-  padding: 40px
+  padding: 40px;
 }
 
 .info-header {
   flex: 1;
 }
 
-.info-imgs  {
+.info-imgs {
   display: flex;
   justify-content: center;
   gap: 50px;
+  padding-bottom: 120px;
 }
 
 .info-one {
@@ -119,6 +122,7 @@ h2 {
   height: 165px;
   border-radius: 10%;
   border: 3px solid blue;
+  text-align: center;
 }
 
 .info-two {
@@ -140,4 +144,91 @@ h2 {
   height: 165px;
   border-radius: 10%;
   border: 3px solid blue;
+}
+
+.img-one {
+  width: 165px;
+}
+
+.img-two {
+  width: 165px;
+}
+
+.img-three {
+  width: 165px;
+}
+
+.img-four {
+  width: 165px;
+}
+
+div.quote {
+  padding: 120px 400px;
+  text-align: center;
+  background-color: #e5e7eb;
+}
+
+p.quote {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+}
+
+p.bob {
+  font-size: 36px;  
+  font-style: italic;
+  color: #1f2937;
+  text-align: right;
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+div.cta-sub {
+  display: flex;
+  background-color: #3882f6;
+  margin: 120px 200px;
+  padding: 100px 100px 100px 260px;
+  justify-content: center;
+  border-radius: 10px;  
+}
+
+p.cta-head {  
+  font-size: 24px;
+  font-weight: 500;
+  color: #f9faf8;  
+}
+
+p.cta-sub {
+  font-size: 18px;
+  color: #e5e7eb;  
+}
+
+.cta-text {
+  flex: 1;
+}
+
+.cta-btn {
+  flex: 1;  
+}
+
+button.cta-btn {
+  border: 1px solid white;  
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 260px;
+}
+
+div.footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 40px;
+}
+
+p.footer  {
+  color: #e5e7eb;
 }
