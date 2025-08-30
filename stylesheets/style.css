@@ -1,19 +1,20 @@
-.flex-main {
-    display: flex;
+.header {
+  display: flex;
 }
 
-.top {
-    flex: 1;
+.logo {
+  width: 150px;
+  height: 81px;
+  border-radius: 5%;
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-right: auto;
 }
 
-.mid-top {
-    flex: 1;
-}
-
-.mid-bottom {
-    flex: 1;
-}
-
-.bottom {
-    flex: 1;
+ul {
+  list-style-type: none;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 200px;
+  gap: 20px;
 }
